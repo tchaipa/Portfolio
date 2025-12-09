@@ -1,0 +1,17 @@
+.MuiChip-outlined {
+    border-color: black;
+    color: black;
+    background-color: #a09d9da3 !important;
+}
+
+.projects-section {
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 10px; */
+    color: #6a6868af;
+    height: auto;
+}

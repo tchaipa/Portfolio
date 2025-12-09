@@ -1,0 +1,43 @@
+.MuiBox-root {
+
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* height: auto; */
+    background-color: rgb(217, 215, 215);
+    padding: 20px;
+}
+
+.voster-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.stc-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.chito-logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.flex-container h3 {
+    display: flex;
+    justify-content: center;
+}

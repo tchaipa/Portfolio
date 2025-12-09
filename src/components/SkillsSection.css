@@ -1,0 +1,18 @@
+.skills-section {
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    color: #6a6868af;
+    height: 100vh;
+    margin: 20px;
+}
+
+.MuiChip-outlined {
+    border-color: black;
+    color: black;
+    background-color: #a09d9da3 !important;
+}
