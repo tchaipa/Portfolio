@@ -37,7 +37,7 @@ const ProfileCardComponent = ({
   status = "Online",
   contactText = "Contact",
   showUserInfo = false,
-  showIconPattern = true,
+  // showIconPattern = true,
   onContactClick,
 }) => {
   const wrapRef = useRef(null);

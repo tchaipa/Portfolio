@@ -2,16 +2,10 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import "./Banner.css";
 import PlaceOutlinedIcon from "@mui/icons-material/PlaceOutlined";
-// import ProfileCard from "./ProfileCard";
-// import hero from "../assets/hero.png";
 import AnimatedContent from "./AnimatedContent";
 import banner from "../assets/hero.png";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import { Button } from "@mui/material";
-
-{
-  /* <script>AOS.init();</script>; */
-}
+import CobaSlider from "./CobaSlider";
 
 export default function Banner() {
   return (
@@ -29,34 +23,7 @@ export default function Banner() {
                 for over 7 years, I still love it as if it was something new.
               </p>
               <div id="container" className="home-location">
-                <PlaceOutlinedIcon className="location-icon" />
-                <span className="location-text">Harare, Zimbabwe</span>
-              </div>
-              <div className="inbox container-fluid">
-                <div className="button">
-                  <div className="icon">
-                    <i className="fa-brands fa-facebook-f"></i>
-                    <span>Facebook</span>
-                  </div>
-                </div>
-                <div className="button">
-                  <div className="icon">
-                    <i className="fa-brands fa-twitter"></i>
-                    <span>Twitter</span>
-                  </div>
-                </div>
-                <div className="button">
-                  <div className="icon">
-                    <i className="fa-brands fa-instagram"></i>
-                    <span>Instagram</span>
-                  </div>
-                </div>
-                <div className="button">
-                  <div className="icon">
-                    <i className="fa-brands fa-github"></i>
-                    <span>Github</span>
-                  </div>
-                </div>
+                <CobaSlider />
               </div>
             </div>
             <div className="container">
@@ -73,23 +40,22 @@ export default function Banner() {
             </div>
           </Grid>
           <Grid size={4}>
-            <div data-aos="zoom-in">
-              <Image src={banner} alt="" />
-            </div>
-            {/* <ProfileCard
-              name="Tafadzwa I. Chaipa"
-              title="Software Engineer"
-              handle="zeus_codes"
-              y
-              status="Online"
-              contactText="Contact Me"
-              avatarUrl={hero}
-              showUserInfo={false}
-              showIconPattern={true}
-              enableTilt={true}
-              enableMobileTilt={false}
-              onContactClick={() => console.log("Contact clicked")}
-            /> */}
+            <AnimatedContent
+              distance={300}
+              direction="horizontal"
+              reverse={false}
+              duration={1.2}
+              ease="bounce.out"
+              initialOpacity={0.2}
+              animateOpacity
+              scale={1.1}
+              threshold={0.2}
+              delay={0.3}
+            >
+              <div data-aos="zoom-in">
+                <Image src={banner} alt="" />
+              </div>
+            </AnimatedContent>
           </Grid>
         </Grid>
       </Box>

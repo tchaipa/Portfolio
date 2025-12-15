@@ -16,7 +16,7 @@ export default function ExperiencePaper() {
           flexWrap: "wrap",
           "& > :not(style)": {
             m: 1,
-            width: 700,
+            maxWidth: 700,
             height: "auto",
           },
         }}
@@ -28,7 +28,7 @@ export default function ExperiencePaper() {
                 <img src={upwork} alt="" className="upwork-logo" />
               </Col>
               <Col>
-                <h3 className="freelancer-h3">Independent Freelancer</h3>
+                <h3>Independent Freelancer</h3>
                 <ul>
                   <li>
                     Developed and maintained web applications for clients.

@@ -5,6 +5,7 @@
 .MuiButton-outlined {
     color: white !important;
     border-color: white !important;
+    border-radius: 15px !important;
 }
 
 .nav-button {
@@ -16,11 +17,11 @@
     position: sticky !important;
 }
 
-.MuiButton-outlined {
-    border-radius: 15px !important;
-}
-
 .MuiButton-outlined:hover {
     background-color: white !important;
     color: black !important;
+}
+
+a {
+    color: white;
 }
