@@ -1,5 +1,8 @@
 .MuiAppBar-colorPrimary {
-    background-color: black !important;
+    background: transparent !important;
+
+
+
 }
 
 .MuiButton-outlined {

@@ -2,10 +2,10 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import "./ExperiencePaper.css";
 import { Col, Container, Row } from "react-bootstrap";
-import upwork from "../assets/upwork.svg";
-import voster from "../assets/vostertech.svg";
-import stc from "../assets/stc.svg";
-import chito from "../assets/chito.png";
+// import upwork from "../assets/upwork.svg";
+// import voster from "../assets/vostertech.svg";
+// import stc from "../assets/stc.svg";
+// import chito from "../assets/chito.png";
 
 export default function ExperiencePaper() {
   return (
@@ -24,8 +24,11 @@ export default function ExperiencePaper() {
         <Paper elevation={3}>
           <Container fluid className="p-3">
             <Row className="flex-container">
-              <Col>
+              {/* <Col>
                 <img src={upwork} alt="" className="upwork-logo" />
+              </Col> */}
+              <Col>
+                <p> April 2023 - Present</p>
               </Col>
               <Col>
                 <h3>Independent Freelancer</h3>
@@ -43,17 +46,17 @@ export default function ExperiencePaper() {
                   </li>
                 </ul>
               </Col>
-              <Col>
-                <p> April 2023 - Present</p>
-              </Col>
             </Row>
           </Container>
         </Paper>
         <Paper elevation={3}>
           <Container fluid className="p-3">
             <Row className="flex-container">
-              <Col>
+              {/* <Col>
                 <img src={voster} alt="" className="voster-logo" />
+              </Col> */}
+              <Col>
+                <p>May 2023 - April 2024</p>
               </Col>
               <Col>
                 <h3>Web Developer</h3>
@@ -74,17 +77,17 @@ export default function ExperiencePaper() {
                   <li>Offered helpdesk support for product end users.</li>
                 </ul>
               </Col>
-              <Col>
-                <p>May 2023 - April 2024</p>
-              </Col>
             </Row>
           </Container>
         </Paper>
         <Paper elevation={3}>
           <Container fluid className="p-3">
             <Row className="flex-container">
-              <Col>
+              {/* <Col>
                 <img src={stc} alt="" className="stc-logo" />
+              </Col> */}
+              <Col>
+                <p>Aug 2019 - Dec 2020</p>
               </Col>
               <Col>
                 <h3>IT Support</h3>
@@ -103,17 +106,17 @@ export default function ExperiencePaper() {
                   <li>Conducted ICT lessons and training.</li>
                 </ul>
               </Col>
-              <Col>
-                <p>Aug 2019 - Dec 2020</p>
-              </Col>
             </Row>
           </Container>
         </Paper>
         <Paper>
           <Container fluid className="p-3">
             <Row className="flex-container">
-              <Col>
+              {/* <Col>
                 <img src={chito} alt="" className="chito-logo" />
+              </Col> */}
+              <Col>
+                <p>Dec 2021 - Mar 2023</p>
               </Col>
               <Col>
                 <h3>Software Developer</h3>
@@ -131,9 +134,6 @@ export default function ExperiencePaper() {
                     skills and collaborate with other developers.
                   </li>
                 </ul>
-              </Col>
-              <Col>
-                <p>Dec 2021 - Mar 2023</p>
               </Col>
             </Row>
           </Container>

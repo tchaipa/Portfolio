@@ -65,7 +65,7 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-  background-color: black;
+  background: linear-gradient(180deg, #030509, #384c5f 50%, #b4c6d2);
   flex-direction: column;
 }
 

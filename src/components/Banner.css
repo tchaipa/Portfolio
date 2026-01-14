@@ -3,7 +3,8 @@
 } */
 
 .MuiGrid-root {
-    background-color: black;
+    /* background-color: black; */
+    /* background: linear-gradient(180deg, #030509, #384c5f 50%, #b4c6d2); */
     height: 100vh;
     align-content: left;
 }
@@ -32,102 +33,126 @@
 .inbox .button {
     display: inline-block;
     height: 60px;
-    width: 60px; 
+    width: 60px;
     /* float: left; */
     margin: 0 5px;
-    overflow: hidden; 
-    background: #fff; 
+    overflow: hidden;
+    background: #fff;
     border-radius: 50px;
     cursor: pointer;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-out
-    }
+}
 
-    .inbox .button:hover {
+.inbox .button:hover {
     width: 200px;
-    }
+}
 
-    .inbox .button .icon {
-        display: inline-block;
-        height: 60px;
-        width: 60px;
-        text-align: center; 
-        border-radius: 50px; 
-        box-sizing: border-box;
-        Line-height: 60px;
-        transition: all 0.3s ease-out;
-        
-        }
-        /* .inbox .button:nth-child(1):hover .icon {
+.inbox .button .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    Line-height: 60px;
+    transition: all 0.3s ease-out;
+
+}
+
+/* .inbox .button:nth-child(1):hover .icon {
         background: #4267b2;
         } */
 
-        .inbox .button:nth-child(2):hover .icon {
-        background: #1da1f2;
-    }
+.inbox .button:nth-child(2):hover .icon {
+    background: #1da1f2;
+}
 
-        .inbox .button:nth-child(3):hover .icon {
-        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
-        }
-        .inbox .button:nth-child(4):hover .icon {
-        background: #333;
-    }
+.inbox .button:nth-child(3):hover .icon {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
 
-        .inbox .button:nth-child(5)  :hover .icon {
-        background: #ff0000;
-    }
+.inbox .button:nth-child(4):hover .icon {
+    background: #333;
+}
 
-        .inbox .button .icon i {
-        font-size: 25px;
-        Line-height: 60px;
-        transition: all 0.3s ease-out;
-        }
-        /* .inbox .button:hover .icon i {
+.inbox .button:nth-child(5) :hover .icon {
+    background: #ff0000;
+}
+
+.inbox .button .icon i {
+    font-size: 25px;
+    Line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+/* .inbox .button:hover .icon i {
             color: #fff;
         } */
 
-            .inbox .button span {
-            font-size: 20px; font-weight: 500;
-            Line-height: 60px; margin-left: 10px;
-            transition: all 0.3s ease-out;
-            }
-            
-            .inbox .button:nth-child(1) span {
-            color: #4267b2;}
-            .inbox .button:nth-child(2) span {
-            color: #1da1f2;
-            }
-            .inbox .button:nth-child(3) span {
-            color: #e1306c;
-            }
-            
-            .inbox .button:nth-child(4) span {
-            color: #333;}
-            .inbox .button:nth-child(5) span {
-            color: #ff0000;
-            }
-            .inbox{
-                display: flex; 
-                gap: 1px;
-                height: 100%; 
-                width: 100%;
-                place-items: center;
-                background: Linear-gradient (315deg, #ffffff 0%, #d7e1ec 74%) ;
-            }
-            @font-face {
-                font-family: 'Poppins';
-                src: url('Poppins/Poppins-Medium.ttf');
-            }
-            *{
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-                font-family: 'Poppins', sans-serif;
-            }
-            /* body{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                min-height: 100vh;
-                background: Linear-gradient (315deg, #ffffff 0%, #d7e1ec 74%) ;
-            } */
+.inbox .button span {
+    font-size: 20px;
+    font-weight: 500;
+    Line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.inbox .button:nth-child(1) span {
+    color: #4267b2;
+}
+
+.inbox .button:nth-child(2) span {
+    color: #1da1f2;
+}
+
+.inbox .button:nth-child(3) span {
+    color: #e1306c;
+}
+
+.inbox .button:nth-child(4) span {
+    color: #333;
+}
+
+.inbox .button:nth-child(5) span {
+    color: #ff0000;
+}
+
+.inbox {
+    display: flex;
+    gap: 1px;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: Linear-gradient (315deg, #ffffff 0%, #d7e1ec 74%);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/Poppins-Medium.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-image {
+    width: 450px;
+    height: 450px;
+    margin-top: 80px;
+    margin-right: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid #010202;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-style: hidden;
+    max-width: 100%;
+}
+
+.banner-image:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s;
+}

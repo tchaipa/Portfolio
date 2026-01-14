@@ -1,12 +1,11 @@
 .experience-section {
     padding: 20px;
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    color: #6a6868af;
+    color: #6a6868af !important;
     height: auto;
 
 }
@@ -15,4 +14,13 @@
     border-color: black;
     color: white;
     background-color: #a09d9da3;
+}
+
+.experience-section .MuiChip-outlined {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.2em;
+
 }

@@ -1,7 +1,6 @@
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import "./Banner.css";
-import PlaceOutlinedIcon from "@mui/icons-material/PlaceOutlined";
 import AnimatedContent from "./AnimatedContent";
 import banner from "../assets/hero.png";
 import { Col, Container, Image, Row } from "react-bootstrap";
@@ -26,18 +25,6 @@ export default function Banner() {
                 <CobaSlider />
               </div>
             </div>
-            <div className="container">
-              <Container>
-                <Row>
-                  <Col>
-                    <Image src="../assets/github.svg" alt="" />
-                  </Col>
-                  <Col>
-                    <img src="../assets/linkedin.svg" alt="" />
-                  </Col>
-                </Row>
-              </Container>
-            </div>
           </Grid>
           <Grid size={4}>
             <AnimatedContent
@@ -53,7 +40,7 @@ export default function Banner() {
               delay={0.3}
             >
               <div data-aos="zoom-in">
-                <Image src={banner} alt="" />
+                <Image src={banner} alt="" className="banner-image" />
               </div>
             </AnimatedContent>
           </Grid>

@@ -3,7 +3,7 @@ import "./CobaSlider.css";
 function CobaSlider() {
   return (
     <section>
-      <a href="#" className="social">
+      <a href="google" className="social">
         <i className="fa-brands fa-facebook-f"></i>
       </a>
       <a href="#" className="social">

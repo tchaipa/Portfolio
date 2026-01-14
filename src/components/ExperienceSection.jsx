@@ -2,6 +2,8 @@ import React from "react";
 import Chip from "@mui/material/Chip";
 import "./ExperienceSection.css";
 import ExperiencePaper from "./ExperiencePaper";
+import AnimatedContent from "./AnimatedContent.jsx";
+import { Col, Row, Container } from "react-bootstrap";
 
 function ExperienceSection() {
   return (
