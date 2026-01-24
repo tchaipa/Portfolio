@@ -11,11 +11,11 @@ export default function Banner() {
     <div className="basic-grid container-fluid ">
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
-          <Grid size={8}>
+          <Grid size={6}>
             <div className="home-banner-text container-fluid">
               <h1>Hi, I am Tafadzwa</h1>
               <p>
-                I'm a full stack developer (React.js & Node.js) with a focus on
+                I'm a Full Stack Software Developer (React.js & Node.js) with a focus on
                 creating (and occasionally designing) exceptional digital
                 experiences that are fast, accessible, visually appealing, and
                 responsive. Even though I have been creating web applications
@@ -37,7 +37,7 @@ export default function Banner() {
               animateOpacity
               scale={1.1}
               threshold={0.2}
-              delay={0.3}
+              delay={0.1}
             >
               <div data-aos="zoom-in">
                 <Image src={banner} alt="" className="banner-image" />

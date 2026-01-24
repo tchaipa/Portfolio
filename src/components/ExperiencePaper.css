@@ -5,8 +5,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
 
-
+.MuiBox-root :hover {
+    opacity: 2.8 !important;
+    box-shadow: none !important;
+    /* color: black !important; */
+    /* transform: scale(1.05);
+    transition: transform 0.5s; */
 }
 
 .MuiPaper-root {
@@ -17,10 +25,13 @@
     width: 800px;
 }
 
+
 .MuiPaper-root :hover {
     opacity: 2.8 !important;
     box-shadow: none !important;
     color: black !important;
+    transform: scale(1.05);
+    transition: transform 0.5s;
 }
 
 .flex-container {
@@ -30,6 +41,10 @@
     /* height: auto; */
     background-color: transparent !important;
     padding: 20px;
+}
+
+Col {
+    width: 20px;
 }
 
 .voster-logo {

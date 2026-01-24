@@ -8,7 +8,7 @@ import link from "../assets/TchaipaCv_WD.pdf";
 function Navbar() {
   const name = "<TAFADZWA/>";
   return (
-    <div>
+    <div className="navbar container-fluid sticky-top">
       <Box sx={{ flexGrow: 1 }}>
         <AppBar className="app-bar">
           <Toolbar>

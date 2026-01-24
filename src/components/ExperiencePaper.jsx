@@ -28,7 +28,7 @@ export default function ExperiencePaper() {
                 <img src={upwork} alt="" className="upwork-logo" />
               </Col> */}
               <Col>
-                <p> April 2023 - Present</p>
+                <p> 2023 - Present</p>
               </Col>
               <Col>
                 <h3>Independent Freelancer</h3>
@@ -56,7 +56,7 @@ export default function ExperiencePaper() {
                 <img src={voster} alt="" className="voster-logo" />
               </Col> */}
               <Col>
-                <p>May 2023 - April 2024</p>
+                <p> 2023 - 2024</p>
               </Col>
               <Col>
                 <h3>Web Developer</h3>
@@ -87,7 +87,7 @@ export default function ExperiencePaper() {
                 <img src={stc} alt="" className="stc-logo" />
               </Col> */}
               <Col>
-                <p>Aug 2019 - Dec 2020</p>
+                <p> 2019 - 2020</p>
               </Col>
               <Col>
                 <h3>IT Support</h3>
@@ -116,7 +116,7 @@ export default function ExperiencePaper() {
                 <img src={chito} alt="" className="chito-logo" />
               </Col> */}
               <Col>
-                <p>Dec 2021 - Mar 2023</p>
+                <p> 2021 - 2023</p>
               </Col>
               <Col>
                 <h3>Software Developer</h3>
