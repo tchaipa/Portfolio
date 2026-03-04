@@ -1,0 +1,14 @@
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.contact-me-grid {
+  background-color: antiquewhite;
+}
+.contact-me-row {
+  display: flex;
+  justify-content: center;
+}

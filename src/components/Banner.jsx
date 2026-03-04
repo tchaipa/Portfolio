@@ -8,18 +8,19 @@ import CobaSlider from "./CobaSlider";
 
 export default function Banner() {
   return (
-    <div className="basic-grid container-fluid ">
+    <div className="banner-section container-fluid ">
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
           <Grid size={6}>
             <div className="home-banner-text container-fluid">
               <h1>Hi, I am Tafadzwa</h1>
+              <span> I am a </span>
               <p>
-                I'm a Full Stack Software Developer (React.js & Node.js) with a focus on
-                creating (and occasionally designing) exceptional digital
-                experiences that are fast, accessible, visually appealing, and
-                responsive. Even though I have been creating web applications
-                for over 7 years, I still love it as if it was something new.
+                With a focus on creating (and occasionally designing)
+                exceptional digital experiences that are fast, accessible,
+                visually appealing, and responsive. Even though I have been
+                creating web applications for over 7 years, I still love it as
+                if it was something new.
               </p>
               <div id="container" className="home-location">
                 <CobaSlider />

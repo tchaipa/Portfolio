@@ -1,0 +1,63 @@
+.MuiChip-outlined {
+  border-color: black;
+  color: black;
+  background-color: #a09d9da3 !important;
+}
+
+.projects-section {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  color: black;
+  height: auto;
+}
+
+.projects-content {
+  /* display: flex;
+  flex-direction: row;
+  gap: 30px; */
+}
+
+.projects-image {
+  height: 320px;
+  width: 620px;
+  object-fit: cover;
+  /* border-radius: 5px; */
+}
+
+.projects-row {
+  display: flex;
+  flex-direction: grid;
+  gap: 40px;
+}
+
+.MuiLink-root {
+  margin: 0;
+  font: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: #51d219 !important;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  text-decoration-color: var(--Link-underlineColor);
+  --Link-underlineColor: rgba(210, 81, 25, 0.4) !important;
+}
+.projects-card {
+  height: auto;
+  width: 620px;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.projects-link {
+  /* color: rgb(78, 79, 81) !important; */
+  color: white !important ;
+  --Link-underlineColor: rgba(71, 25, 210, 0.4) !important;
+  margin-bottom: 5px;
+}
+.projects-card h4 {
+  margin-bottom: 30px;
+}

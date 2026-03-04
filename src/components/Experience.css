@@ -1,0 +1,100 @@
+.experience-section {
+  padding: 20px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  color: #6a6868af !important;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.experience-section .MuiChip-outlined {
+  border-color: black;
+  color: white;
+  background-color: #a09d9da3;
+}
+
+.experience-section .MuiChip-outlined {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.card {
+  position: relative;
+  width: 600px !important;
+  height: 200px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  animation: breathe 5s ease-in-out infinite;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: -50%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  animation: light 6s linear infinite;
+}
+
+.card-row {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  height: auto;
+  padding: 10px;
+}
+
+.card-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+
+.experience-cards {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+@keyframes breathe {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  }
+
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 30px 90px rgba(0, 0, 0, 0.6);
+  }
+}
+
+@keyframes light {
+  0% {
+    transform: translateX(-100%) rotate(25deg);
+  }
+
+  100% {
+    transform: translateX(100%) rotate(25deg);
+  }
+}
+.vertical-timeline-element-content {
+  background-color: rgb(177 190 200 / 6%) !important;
+  color: white !important;
+}

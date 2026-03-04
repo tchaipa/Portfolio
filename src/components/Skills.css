@@ -1,0 +1,49 @@
+.skills-section {
+  padding: 20px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  color: black;
+  height: 130vh;
+  /* margin: 20px; */
+}
+
+.MuiChip-outlined {
+  border-color: black;
+  color: black;
+  background-color: #a09d9da3 !important;
+}
+.skills-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.skills-card {
+  background-color: transparent;
+  width: 200px !important;
+  height: auto !important  ;
+  justify-items: center;
+  justify-content: center !important;
+  align-items: center !important;
+  border-color: black;
+}
+.skills-card:hover {
+  background-color: black;
+}
+.skills-card h1 {
+  color: white;
+  font-size: 2em;
+}
+.skills-button {
+  background-color: transparent;
+  border-color: black;
+  border-radius: 70px;
+}
+.skills-button:hover {
+  background-color: #000;
+  border-color: white;
+  color: white;
+}
