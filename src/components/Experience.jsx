@@ -21,7 +21,7 @@ function Experience() {
           className="vertical-timeline-element--work "
           contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           date="May 2024 - present"
-          iconStyle={{ color: "white ", background: "black" }}
+          iconStyle={{ color: "#b2afaf", background: "black" }}
           icon={<WorkflowIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -36,7 +36,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="May 2023 - April 2024"
-          iconStyle={{ color: "black ", background: "white" }}
+          iconStyle={{ color: "black ", background: "#b2afaf" }}
           icon={<WorkflowIcon />}
         >
           <h3 className="vertical-timeline-element-title">Web Developer</h3>
@@ -51,7 +51,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Dec 2021 - March 2023"
-          iconStyle={{ color: "white ", background: "black" }}
+          iconStyle={{ color: "#b2afaf", background: "black" }}
           icon={<WorkflowIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -63,7 +63,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Aug 2019 - Dec 2020"
-          iconStyle={{ color: "black ", background: "white" }}
+          iconStyle={{ color: "black ", background: "#b2afaf" }}
           icon={<WorkflowIcon />}
         >
           <h3 className="vertical-timeline-element-title">
