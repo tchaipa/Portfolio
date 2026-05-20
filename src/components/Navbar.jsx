@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import "./Navbar.css";
 import { Button } from "@mui/material";
-import link from "../assets/TchaipaCv_WD.pdf";
+// import link from "../assets/TchaipaCv_WD.pdf";
 
 function Navbar() {
   const name = "<TAFADZWA/>";
@@ -15,9 +15,9 @@ function Navbar() {
             <h2 className="nav-title"> {name} </h2>
             <div className="nav-button">
               <Button variant="outlined">
-                <a href={link} target="_blank" rel="noopener noreferrer">
+                {/* <a href={link} target="_blank" rel="noopener noreferrer">
                   Download CV
-                </a>
+                </a> */}
               </Button>
             </div>
           </Toolbar>
