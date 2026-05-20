@@ -15,7 +15,9 @@ function Navbar() {
             <h2 className="nav-title"> {name} </h2>
             <div className="nav-button">
               <Button variant="outlined">
-                <a href={link}>Download CV</a>
+                <a href={link} target="_blank" rel="noopener noreferrer">
+                  Download CV
+                </a>
               </Button>
             </div>
           </Toolbar>
