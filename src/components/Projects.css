@@ -1,8 +1,8 @@
-.MuiChip-outlined {
-  border-color: black;
-  color: black;
+/* .MuiChip-outlined {
+  border-color: rgb(160, 40, 40);
+  color: rgb(236, 78, 78);
   background-color: #a09d9da3 !important;
-}
+} */
 
 .projects-section {
   padding: 20px;
@@ -15,18 +15,18 @@
   height: auto;
 }
 
-.projects-content {
-  /* display: flex;
-  flex-direction: row;
-  gap: 30px; */
-}
-
 .projects-image {
   display: flex;
   height: 320px;
   width: 620px;
   object-fit: cover;
+  margin-bottom: 15px;
+
   /* border-radius: 5px; */
+}
+.projects-card:hover {
+  transform: scale(1.15);
+  transition: transform 0.5s;
 }
 
 .projects-row {
@@ -34,7 +34,7 @@
   flex-direction: grid;
   gap: 40px !important;
 }
-
+/* 
 .MuiLink-root {
   margin: 0;
   font: inherit;
@@ -45,22 +45,39 @@
   text-decoration: underline;
   text-decoration-color: var(--Link-underlineColor);
   --Link-underlineColor: rgba(210, 81, 25, 0.4) !important;
-}
+} */
 .projects-card {
   height: auto;
   width: 620px;
-  background-color: transparent !important;
+  /* background: var(--bg3) !important; */
   border-radius: 0;
-  padding: 10px;
+  padding: 5px;
+  background: radial-gradient(
+    circle,
+    rgba(72, 112, 114, 0.264),
+    transparent 90%
+  ) !important;
 }
 
 .projects-link {
-  /* color: rgb(78, 79, 81) !important; */
-  color: white !important ;
-  --Link-underlineColor: rgba(71, 25, 210, 0.4) !important;
-  margin-bottom: 5px;
+  --Link-underlineColor: #b4c6d2 !important;
+  color: #b4c6d2 !important;
+  padding: 15px;
 }
-.projects-card h4 {
-  margin-bottom: 30px;
-  color: #a09d9da3;
+.projects-chip {
+  color: white !important;
+  margin-top: 10px;
+  background: radial-gradient(
+    circle,
+    rgba(72, 112, 114, 0.264),
+    transparent 70%
+  );
+  border-color: #b4c6d2;
+  border-radius: 2px !important;
+}
+.projects-section h3 {
+  color: aliceblue;
+}
+.projects-content {
+  margin-bottom: 120px !important;
 }

@@ -10,20 +10,32 @@ import { ArrowForward } from "@mui/icons-material";
 function Projects() {
   return (
     <div className="projects-section container-fluid">
-      <Chip label="PROJECTS" variant="outlined" className="projects-chip" />
+      <h1>Projects</h1>
       <h3>Some of the noteworthy projects I have built:</h3>
       <div className="projects-content container ">
         <Row className="projects-row">
           <Col>
             <Card className="projects-card">
               <Image className="projects-image" src={port} fluid></Image>
-              <h4>My Portfolio</h4>
+              <Link className="projects-link">My Portfolio</Link>
+              <div>
+                <Chip className="projects-chip" label="React JS"></Chip>
+                <Chip className="projects-chip" label="Node JS"></Chip>
+                <Chip className="projects-chip" label="Javascript JS"></Chip>
+                <Chip className="projects-chip" label="MySQL"></Chip>
+              </div>
             </Card>
           </Col>
           <Col>
             <Card className="projects-card">
               <Image className="projects-image" src={vost}></Image>
-              <h4>Vostertech Consultancy</h4>
+              <Link className="projects-link">Vostertech Consultancy</Link>
+              <div>
+                <Chip className="projects-chip" label="React JS"></Chip>
+                <Chip className="projects-chip" label="Node JS"></Chip>
+                <Chip className="projects-chip" label="Javascript JS"></Chip>
+                <Chip className="projects-chip" label="MySQL"></Chip>
+              </div>
             </Card>
           </Col>
         </Row>
@@ -32,13 +44,24 @@ function Projects() {
           <Col>
             <Card className="projects-card">
               <Image className="projects-image" src={vox}></Image>
-              <h4>VoxVoyager</h4>
+              <Link className="projects-link">VoxVoyager</Link>
+              <div>
+                <Chip className="projects-chip" label="React JS"></Chip>
+                <Chip className="projects-chip" label="Node JS"></Chip>
+                <Chip className="projects-chip" label="Javascript JS"></Chip>
+                <Chip className="projects-chip" label="MySQL"></Chip>
+              </div>
             </Card>
           </Col>
           <Col>
             <Card className="projects-card">
               <Image className="projects-image" src={vost}></Image>
-              <h4>Website</h4>
+              <Link className="projects-link">Website</Link>
+              <div>
+                <Chip className="projects-chip" label="Wordpress"></Chip>
+                <Chip className="projects-chip" label="Elementor"></Chip>
+                <Chip className="projects-chip" label="Shopify"></Chip>
+              </div>
             </Card>
           </Col>
         </Row>

@@ -13,7 +13,7 @@ export default function Banner() {
         <Grid container spacing={2}>
           <Grid size={6}>
             <div className="home-banner-text container-fluid">
-              <h1>Hi, I am Tafadzwa</h1>
+              <h3>Hi, I am Tafadzwa</h3>
               <span> I am a </span>
               <p>
                 With a focus on creating (and occasionally designing)
@@ -22,6 +22,7 @@ export default function Banner() {
                 creating web applications for over 7 years, I still love it as
                 if it was something new.
               </p>
+              <h3 className="banner-location">Harare, Zimbabwe 🌐</h3>
               <div id="container" className="home-location">
                 <CobaSlider />
               </div>

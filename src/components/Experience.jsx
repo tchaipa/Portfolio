@@ -13,7 +13,7 @@ import { SchoolIcon, WorkflowIcon } from "lucide-react";
 function Experience() {
   return (
     <div className="experience-section container-fluid">
-      <Chip label="EXPERIENCE" variant="outlined" />
+      <h1>Experience</h1>
       <h3>Here is a quick summary of my most recent experiences:</h3>
 
       <VerticalTimeline>

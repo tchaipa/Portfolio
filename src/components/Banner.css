@@ -10,7 +10,6 @@
   max-width: 100%;
   margin-bottom: 70px;
   display: flex;
-  /* justify-content: center; */
   margin-top: 20px;
 }
 
@@ -18,8 +17,10 @@
   color: white !important;
   font-size: 3rem;
   text-align: left;
-  margin-left: 30px;
-  margin-top: 100px;
+  /* margin: 100px; */
+  margin-left: 100px;
+  margin-top: 60px;
+  max-width: 100%;
 }
 
 .home-banner-text h1 {
@@ -41,23 +42,18 @@
 
 @keyframes text {
   0%,
-  25% {
-    content: "Front End Developer";
-  }
-
-  26%,
-  50% {
+  33% {
     content: "Software Developer";
   }
 
-  51%,
-  75% {
-    content: "Applications Developer";
+  34%,
+  66% {
+    content: "Web Developer";
   }
 
-  76%,
+  67%,
   100% {
-    content: "Web Developer";
+    content: "IT Support";
   }
 }
 
@@ -95,10 +91,6 @@
   line-height: 60px;
   transition: all 0.3s ease-out;
 }
-
-/* .inbox .button:nth-child(1):hover .icon {
-        background: #4267b2;
-        } */
 
 .inbox .button:nth-child(2):hover .icon {
   background: #1da1f2;
@@ -185,18 +177,28 @@
 .banner-image {
   width: 450px;
   height: 450px;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-right: 50px;
   border-radius: 50%;
   object-fit: cover;
   border: 10px solid #010202;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); */
   border-style: hidden;
   max-width: 100%;
   margin-left: 100px;
+  background: radial-gradient(
+    circle,
+    rgba(72, 112, 114, 0.264),
+    transparent 70%
+  ) !important;
 }
 
 .banner-image:hover {
   transform: scale(1.05);
   transition: transform 0.5s;
+}
+.banner-location {
+  color: #acdad7;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
 }
