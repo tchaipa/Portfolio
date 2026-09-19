@@ -25,7 +25,7 @@ export default function Nav() {
           if (entry.isIntersecting) setActive(entry.target.id);
         });
       },
-      { rootMargin: "-40% 0px -50% 0px", threshold: 0 }
+      { rootMargin: "-40% 0px -50% 0px", threshold: 0 },
     );
 
     sections.forEach((s) => observer.observe(s));
@@ -40,7 +40,9 @@ export default function Nav() {
         zIndex: 40,
         background: scrolled ? "rgba(11,18,16,0.86)" : "transparent",
         backdropFilter: scrolled ? "blur(10px)" : "none",
-        borderBottom: scrolled ? "1px solid var(--border-soft)" : "1px solid transparent",
+        borderBottom: scrolled
+          ? "1px solid var(--border-soft)"
+          : "1px solid transparent",
         transition: "background 0.2s ease, border-color 0.2s ease",
       }}
     >
@@ -67,7 +69,10 @@ export default function Nav() {
           <span style={{ color: "var(--accent)" }}>/&gt;</span>
         </a>
 
-        <nav style={{ display: "flex", alignItems: "center", gap: 4 }} className="nav-desktop">
+        <nav
+          style={{ display: "flex", alignItems: "center", gap: 4 }}
+          className="nav-desktop"
+        >
           {nav.map((item) => (
             <a
               key={item.id}
@@ -76,14 +81,21 @@ export default function Nav() {
                 padding: "8px 14px",
                 fontSize: 14,
                 borderRadius: 6,
-                color: active === item.id ? "var(--accent-strong)" : "var(--text-dim)",
+                color:
+                  active === item.id
+                    ? "var(--accent-strong)"
+                    : "var(--text-dim)",
                 position: "relative",
               }}
             >
               {item.label}
             </a>
           ))}
-          <a href="#contact" className="btn btn-primary" style={{ marginLeft: 10 }}>
+          <a
+            href="#contact"
+            className="btn btn-primary"
+            style={{ marginLeft: 10 }}
+          >
             Get in touch
           </a>
         </nav>
@@ -124,7 +136,8 @@ export default function Nav() {
                 padding: "10px 4px",
                 fontSize: 15,
                 borderBottom: "1px solid var(--border-soft)",
-                color: active === item.id ? "var(--accent-strong)" : "var(--text)",
+                color:
+                  active === item.id ? "var(--accent-strong)" : "var(--text)",
               }}
             >
               {item.label}
@@ -135,8 +148,14 @@ export default function Nav() {
 
       <style>{`
         @media (max-width: 780px) {
-          .nav-desktop { display: none; }
-          .nav-toggle { display: inline-flex !important; align-items: center; justify-content: center; }
+          .nav-desktop { 
+            display: none !important; 
+          }
+          .nav-toggle { 
+            display: inline-flex !important; 
+            align-items: center; 
+            justify-content: center; 
+          }
         }
       `}</style>
     </header>

@@ -211,6 +211,7 @@ img {
   }
 }
 
+
 @media (max-width: 900px) {
   .navbar__toggle {
     display: flex;

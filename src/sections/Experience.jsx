@@ -8,7 +8,9 @@ export default function Experience() {
         <div className="section-head">
           <div className="section-title-row">
             <span className="section-index">01 / Experience</span>
-            <h2 className="section-title">Here's a quick summary of my recent roles</h2>
+            <h2 className="section-title">
+              Here's a quick summary of my recent roles
+            </h2>
           </div>
         </div>
 
@@ -40,11 +42,26 @@ export default function Experience() {
                     gap: 8,
                   }}
                 >
-                  <div style={{ textAlign: leftSide ? "right" : "left", order: leftSide ? 1 : 3 }}>
-                    {leftSide ? <Card role={role} align="right" /> : <Meta role={role} align="left" />}
+                  <div
+                    style={{
+                      textAlign: leftSide ? "right" : "left",
+                      order: leftSide ? 1 : 3,
+                    }}
+                  >
+                    {leftSide ? (
+                      <Card role={role} align="right" />
+                    ) : (
+                      <Meta role={role} align="left" />
+                    )}
                   </div>
 
-                  <div style={{ display: "flex", justifyContent: "center", order: 2 }}>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      order: 2,
+                    }}
+                  >
                     <span
                       style={{
                         width: 44,
@@ -63,8 +80,17 @@ export default function Experience() {
                     </span>
                   </div>
 
-                  <div style={{ textAlign: leftSide ? "left" : "right", order: leftSide ? 3 : 1 }}>
-                    {leftSide ? <Meta role={role} align="right" /> : <Card role={role} align="left" />}
+                  <div
+                    style={{
+                      textAlign: leftSide ? "left" : "right",
+                      order: leftSide ? 3 : 1,
+                    }}
+                  >
+                    {leftSide ? (
+                      <Meta role={role} align="right" />
+                    ) : (
+                      <Card role={role} align="left" />
+                    )}
                   </div>
                 </div>
               );
@@ -77,11 +103,26 @@ export default function Experience() {
         @media (max-width: 780px) {
           .timeline-spine { left: 22px !important; }
           .timeline-row {
+            display: grid !important;
             grid-template-columns: 44px 1fr !important;
+            grid-template-rows: auto auto !important;
+            gap: 12px 12px !important;
+            align-items: flex-start !important;
           }
           .timeline-row > div:first-child { display: none !important; }
-          .timeline-row > div:nth-child(2) { order: 1 !important; justify-content: flex-start !important; }
-          .timeline-row > div:last-child { order: 2 !important; text-align: left !important; }
+          .timeline-row > div:nth-child(2) { 
+            grid-column: 1 !important; 
+            grid-row: 1 !important; 
+            display: flex !important; 
+            justify-content: flex-end !important; 
+            padding-right: 12px !important;
+            align-items: center !important;
+          }
+          .timeline-row > div:last-child { 
+            grid-column: 2 !important; 
+            grid-row: 1 / 3 !important; 
+            text-align: left !important; 
+          }
         }
       `}</style>
     </section>
@@ -98,10 +139,13 @@ function Card({ role, align }) {
         borderRadius: "var(--radius-md)",
         padding: "18px 20px",
         maxWidth: 380,
+        width: "100%",
       }}
     >
       <h3 style={{ fontSize: 17 }}>{role.role}</h3>
-      <p style={{ color: "var(--accent)", fontSize: 13.5, marginTop: 4 }}>{role.org}</p>
+      <p style={{ color: "var(--accent)", fontSize: 13.5, marginTop: 4 }}>
+        {role.org}
+      </p>
       <div
         style={{
           display: "flex",
@@ -132,7 +176,13 @@ function Card({ role, align }) {
 
 function Meta({ role }) {
   return (
-    <span style={{ fontFamily: "var(--font-mono)", fontSize: 13.5, color: "var(--text-faint)" }}>
+    <span
+      style={{
+        fontFamily: "var(--font-mono)",
+        fontSize: 13.5,
+        color: "var(--text-faint)",
+      }}
+    >
       {role.period}
     </span>
   );
