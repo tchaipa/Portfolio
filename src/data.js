@@ -1,8 +1,12 @@
 export const profile = {
   name: "Tafadzwa",
   fullName: "Tafadzwa Isaac Chaipa",
-  role: "IT Support",
-  roleRotation: ["IT Support", "Systems Developer", "Full-Stack Developer"],
+  role: "Software Engineer",
+  roleRotation: [
+    "Software Engineer",
+    "Application Systems Developer",
+    "Full-Stack Developer",
+  ],
   tagline:
     "With a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I've been building web applications for over 5+ years, I still love it as if it were something new.",
   location: "Harare, Zimbabwe",
