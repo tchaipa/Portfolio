@@ -8,7 +8,7 @@ export const profile = {
     "Full-Stack Developer",
   ],
   tagline:
-    "With a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I've been building web applications for over 5+ years, I still love it as if it were something new.",
+    "With  a keen eye for detail and a commitment to staying up-to-date with the latest technologies, I strive to deliver high-quality software that exceeds expectations. My expertise spans across various programming languages, frameworks, and tools, allowing me to tackle complex challenges and deliver innovative solutions.",
   location: "Harare, Zimbabwe",
   availability: "Open to new roles",
   email: "tchaipa97@gmail.com",
