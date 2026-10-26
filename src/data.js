@@ -9,7 +9,7 @@ export const profile = {
   availability: "Open to new roles",
   email: "tchaipa97@gmail.com",
   phone: "+263 772 579 293",
-  resumeUrl: "/TChaipa_Software-Dev_CV.pdf", // TODO: drop your CV into /public/resume.pdf
+  resumeUrl: "/Tafadzwa_Chaipa-SD_CV.pdf", // TODO: drop your CV into /public/resume.pdf
   photo: "/hero.png",
   socials: [
     { label: "GitHub", href: "https://github.com/tchaipa" },
@@ -29,7 +29,7 @@ export const nav = [
 
 export const experience = [
   {
-    period: "May 2024 — Present",
+    period: "Jan 2025 — Present",
     role: "Freelance Developer",
     org: "Upwork",
     tags: [
@@ -41,7 +41,7 @@ export const experience = [
     ],
   },
   {
-    period: "May 2023 — April 2024",
+    period: "May 2023 — Jan 2025",
     role: "Web Developer",
     org: "VosterTech Consultancy",
     tags: [
@@ -132,11 +132,12 @@ export const skillGroups = [
       "Node.js",
       "Express.js",
       "Django",
-      "PHP",
-      "Python",
       "MySQL",
       "RESTful APIs",
       "MongoDB",
+      "PostgreSQL",
+      "Firebase",
+      "Supabase",
     ],
   },
   {
@@ -145,13 +146,14 @@ export const skillGroups = [
     items: [
       "Git / GitHub",
       "VS Code",
-      "Figma",
-      "Canva",
       "Wordpress",
-      "Elementor",
+      "Kubernetes",
       "Oracle Cloud Infrastructure",
       "Docker",
-      "Shopify",
+      "Vite",
+      "Webpack",
+      "GitHub Copilot",
+      "Claude AI",
     ],
   },
   {
@@ -202,8 +204,8 @@ export const services = [
   },
   {
     number: "06",
-    title: "IT Support",
+    title: "AI Integration",
     description:
-      "Infrastructure setup, server administration, LAN/WAN configuration, and end-user technical support for businesses of all sizes.",
+      "Integrate AI into your business processes, from chatbots to predictive analytics. Leverage machine learning to enhance user experience and decision-making.",
   },
 ];
